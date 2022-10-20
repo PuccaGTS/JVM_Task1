@@ -35,7 +35,7 @@
     
         public static void main(String[] args) {
 
- ![Фото1](pic\1.png)  
+ ![Фото1](https://github.com/PuccaGTS/JVM_Task1/blob/main/pic/1.png?raw=true)  
 
 2. Во frame main попадаем переменная i со значением 1.
             
