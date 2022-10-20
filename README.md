@@ -85,11 +85,11 @@
 
 8. Происходит вывод в консоль слова "finished" в frame main, после чего frame main закрывается. Здесь может прийти Уборщик мусора🧹🗑️🚜 и убрать из хипа объект Integer со значением 2 и объект типа Oject, т.к. ссылок на эти объект больше не существует.
 
-    public static void main(String[] args) {
-                int i = 1;                      // 1
-                Object o = new Object();        // 2
-                Integer ii = 2;                 // 3
-                printAll(o, i, ii);             // 4
-                System.out.println("finished"); // 7
-            }
+        public static void main(String[] args) {
+                    int i = 1;                      // 1
+                    Object o = new Object();        // 2
+                    Integer ii = 2;                 // 3
+                    printAll(o, i, ii);             // 4
+                    System.out.println("finished"); // 7
+                }
 ![Фото8](https://github.com/PuccaGTS/JVM_Task1/blob/main/pic/8.png?raw=true)
